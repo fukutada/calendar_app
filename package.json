@@ -1,7 +1,7 @@
 {
   "name": "calendar",
-  "homepage": "https://fukutada.github.io/calendar/",
   "version": "0.1.0",
+  "homepage": "./",
   "private": true,
   "dependencies": {
     "@fullcalendar/core": "^5.10.1",
