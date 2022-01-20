@@ -50,11 +50,8 @@ class App extends Component {
 
   }
   render() {
-    // console.log(this.myEvents);
     return (
       <div>
-        {/* {this.renderCover()}
-        {this.renderForm()} */}
         <div className="container">
           <FullCalendar
             locale="ja" // 日本語
