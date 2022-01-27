@@ -159,7 +159,7 @@ class App extends Component {
           {this.state.isChange === false ? (
             <div className="container__form__header">予定を入力</div>
           ) : (
-            <div className="container__form__header">予定を変更</div>
+            <div className="container__form__header change">予定を変更</div>
           )}
 
           <div>{this.renderTitle()}</div>
