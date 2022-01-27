@@ -48,3 +48,26 @@ margin-bottom: 20px;
   border-radius: 5px;
 border: #000 1px solid;
 }
+
+
+
+.container{
+  width: 75%;
+  max-width: 800px;
+  height: auto;
+}
+.container__form{
+  width: 20%;
+  margin-top: 50px;
+}
+#root > div{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+
+@media(max-width:850px){
+  #root > div{
+display: block;
+}
+}
