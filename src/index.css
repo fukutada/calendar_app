@@ -18,11 +18,11 @@ code {
 
 /* 曜日の色の変更 */
 .fc-day-sun .fc-scrollgrid-sync-inner .fc-col-header-cell-cushion {
-color: #f00;
+color: #f55;
 }
 
 .fc-day-sat .fc-scrollgrid-sync-inner .fc-col-header-cell-cushion {
-color: #00f;
+color: #55f;
 
 }
 
