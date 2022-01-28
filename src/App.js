@@ -29,17 +29,17 @@ class App extends Component {
     this.myEvents = [
       {
         id: 0,
-        title: "event 1",
-        start: "2020-05-22 10:00:00",
-        end: "2020-05-22 11:00:00",
-        memo: "memo1",
+        title: "",
+        start: "",
+        end: "",
+        memo: "",
       },
       {
         id: 1,
-        title: "event 2",
-        start: "2020-05-23 10:00:00",
-        end: "2020-05-23 11:00:00",
-        memo: "memo2",
+        title: "",
+        start: "",
+        end: "",
+        memo: "",
       },
     ];
     this.EVENT_SEL_NON = 0xffff;

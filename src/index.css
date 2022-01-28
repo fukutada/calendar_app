@@ -16,10 +16,48 @@ code {
     monospace;
 }
 
+/* 曜日の色の変更 */
+.fc-day-sun .fc-scrollgrid-sync-inner .fc-col-header-cell-cushion {
+color: #f00;
+}
+
+.fc-day-sat .fc-scrollgrid-sync-inner .fc-col-header-cell-cushion {
+color: #00f;
+
+}
+
+/* ページの説明部分 */
+.expla{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.expla h1{
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  margin: 15px 0 0 0;
+}
+
+.text {
+  color:#3688d8;
+  font-weight: bold;
+  margin-left: 0;
+  padding: 5px;
+  border-radius: 5px;
+border: #000 1px solid;
+}
+
+/* 予定の入力、変更部分 */
 form{
 text-align: center;
-padding-top: 20px;
 margin-bottom: 20px;
+padding: 20px 0;
+  border: 1px solid #000;
+  border-radius: 15px;
+  margin-top: 20px;
 
 }
 
@@ -37,36 +75,6 @@ margin-bottom: 20px;
   margin-bottom: 8px;
 }
 
-.expla{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.expla h1{
-  text-align: center;
-  font-size: 50px;
-  font-weight: bold;
-  margin: 15px 0;
-}
-
-.text {
-  color:#3688d8;
-  font-weight: bold;
-  margin-left: 0;
-  padding: 5px;
-  border-radius: 5px;
-border: #000 1px solid;
-}
-
-form{
-  padding: 20px 0;
-  border: 1px solid #000;
-  border-radius: 15px;
-  margin-top: 20px;
-}
-
 .change{
   background-color: #3688d8;
   color: #fff;
@@ -81,6 +89,8 @@ form{
   width: 20%;
   margin-top: 50px;
 }
+
+
 #root > div{
 display: flex;
 justify-content: space-between;
